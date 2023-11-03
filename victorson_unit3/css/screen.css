@@ -1,0 +1,113 @@
+/* color palette*/
+
+.color-primary-0 { color: #47003E }	/* Main Primary color */
+.color-primary-1 { color: #2D0128 }
+.color-primary-2 { color: #370030 }
+.color-primary-3 { color: #6B005E }
+.color-primary-4 { color: #920080 }
+
+.color-secondary-1-0 { color: #042043 }	/* Main Secondary color (1) */
+.color-secondary-1-1 { color: #04152B }
+.color-secondary-1-2 { color: #031834 }
+.color-secondary-1-3 { color: #073066 }
+.color-secondary-1-4 { color: #08418A }
+
+.color-secondary-2-0 { color: #673900 }	/* Main Secondary color (2) */
+.color-secondary-2-1 { color: #412502 }
+.color-secondary-2-2 { color: #4F2C00 }
+.color-secondary-2-3 { color: #9B5700 }
+.color-secondary-2-4 { color: #D37600 }
+
+
+body {
+    background-color: #2D0128;
+}
+
+header {
+    background-color: #47003E;
+    height: 100px;
+    position: relative;
+}
+
+header h1 {
+    padding: 20px; /* 20px 5px 15px 19px do each indavidually like this */
+}
+
+nav {
+    background-color: #6B005E;
+    position: absolute;
+    top: 58px;
+    left: 0px;
+    width: 100%;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0px 0px 0px 200px;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: inline-block;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    width: 100px
+}
+
+nav::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+nav ul li:hover {
+    background-color: #D37600;
+}
+
+#page {
+    background-color:  #47003E;
+    max-width: 1200px;
+    margin: 0 auto; /* centers layout*/
+    position: relative;
+    font-family: candara, vanerdana, sans-serif;
+    line-height: 1.4em;
+}
+
+.main {
+    background-color: #2D0128;
+    padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6, h7 {
+    color: #D37600;
+}
+
+p {
+    color: fff;
+}
+
+ul {
+    color: antiquewhite;
+}
+
+li {
+    color: fff;
+}
+
+/* images */
+img.portfolio {
+    width: 600;
+    height: 315;
+}
+
+#demo {
+    width: 600;
+    height: 315;
+    background-image: url(../images/bg.png);
+    background-repeat: repeat-y;
+}
